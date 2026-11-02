@@ -1,0 +1,14 @@
+{
+  "name": "axxen-content-factory",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "studio": "pnpm --filter @axxen/video studio",
+    "make-pack": "pnpm --filter @axxen/pipeline make-pack",
+    "render:fixture": "pnpm --filter @axxen/pipeline make-pack --brand ../video/public/fixtures/hamburgueseria/brand.json --specs ../video/public/fixtures/hamburgueseria/pack.json --no-tts",
+    "library:check": "pnpm --filter @axxen/pipeline library:check"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Fuego Burgers",
+  "rubro": "gastronomia",
+  "logo": "fixtures/hamburgueseria/logo.svg",
+  "colors": { "primary": "#E63A1F", "secondary": "#1C1A19", "accent": "#FFC531", "text": "#FFFFFF", "background": "#1A0F0A" },
+  "font": "anton",
+  "whatsapp": "5491122334455",
+  "instagram": "fuegoburgers.test",
+  "location": "Palermo, CABA",
+  "products": [
+    { "id": "doble-cheddar", "name": "Doble Cheddar", "price": 12900, "oldPrice": 15900, "image": "fixtures/hamburgueseria/doble-cheddar.svg", "cutout": true },
+    { "id": "bacon-bbq", "name": "Bacon BBQ", "price": 13900, "image": "fixtures/hamburgueseria/bacon-bbq.svg", "cutout": true },
+    { "id": "clasica", "name": "La Clásica", "price": 9900, "image": "fixtures/hamburgueseria/clasica.svg", "cutout": true },
+    { "id": "veggie", "name": "Veggie Fuego", "price": 11500, "image": "fixtures/hamburgueseria/veggie.svg", "cutout": true },
+    { "id": "papas-cheddar", "name": "Papas Cheddar", "price": 6500, "image": "fixtures/hamburgueseria/papas-cheddar.svg", "cutout": true }
+  ],
+  "reviews": [
+    { "author": "Caro M.", "text": "Llegó calentita y el cheddar se derretía. La mejor doble que probé en Palermo.", "rating": 5, "source": "cliente" },
+    { "author": "Nico R.", "text": "Pedí un martes a la noche y en 30 minutos estaba en casa. Volvemos seguro.", "rating": 5, "source": "cliente" }
+  ],
+  "offer": { "headline": "Doble Cheddar de $15.900 a $12.900", "deadline": "Solo hasta el domingo 10/11", "installments": "Aceptamos Mercado Pago" }
+}

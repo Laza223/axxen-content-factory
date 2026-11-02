@@ -1,0 +1,43 @@
+{
+  "name": "@axxen/video",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/lib.ts",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "fixture-assets": "node scripts/make-fixture-assets.mjs && node scripts/copy-fonts.mjs && node scripts/make-sample-library.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "echo 'video has no unit tests; see pipeline'"
+  },
+  "dependencies": {
+    "@axxen/core": "workspace:*",
+    "@remotion/captions": "4.0.539",
+    "@remotion/fonts": "4.0.539",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@fontsource/anton": "5.3.0",
+    "@fontsource/archivo-black": "5.3.0",
+    "@fontsource/bebas-neue": "5.3.0",
+    "@fontsource/dm-serif-display": "5.3.0",
+    "@fontsource/montserrat": "5.3.0",
+    "@fontsource/oswald": "5.3.0",
+    "@fontsource/playfair-display": "5.3.0",
+    "@fontsource/poppins": "5.3.0",
+    "@remotion/cli": "4.0.539",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.2.3",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "@types/node": "26.6.6"
+  },
+  "exports": {
+    ".": "./src/lib.ts",
+    "./catalog": "./src/library/catalog.ts",
+    "./registry": "./src/library/registry.tsx",
+    "./paths": "./src/paths.ts"
+  }
+}

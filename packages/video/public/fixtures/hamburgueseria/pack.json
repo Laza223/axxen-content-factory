@@ -1,0 +1,69 @@
+[
+  {
+    "id": "fuego-1-thumbstopper",
+    "template": "thumbstopper",
+    "voice": { "words": [] },
+    "captionStyle": "bold",
+    "scenes": [
+      { "type": "broll", "durationInFrames": 66, "mood": "fuego", "text": "¿Antojo de algo bien de verdad?", "say": "¿Antojo de algo bien de verdad?" },
+      { "type": "product_hero", "durationInFrames": 120, "productId": "doble-cheddar", "motion": "push", "headline": "Recién salida del fuego", "say": "Mirá esta doble cheddar, recién salida del fuego." },
+      { "type": "price_card", "durationInFrames": 120, "productId": "doble-cheddar", "headline": "Precio de esta semana", "price": 12900, "oldPrice": 15900, "say": "Esta semana la tenés a $12.900." },
+      { "type": "cta", "durationInFrames": 120, "headline": "Pedí la tuya hoy", "subline": "Delivery en Palermo y alrededores", "say": "Escribinos y te la llevamos." }
+    ]
+  },
+  {
+    "id": "fuego-2-pas",
+    "template": "pas",
+    "voice": { "words": [] },
+    "captionStyle": "bold",
+    "scenes": [
+      { "type": "text_punch", "durationInFrames": 99, "lines": ["¿Llegó fría", "y aplastada?"], "highlight": 1, "say": "¿Otra vez tu hamburguesa llegó fría y aplastada?" },
+      { "type": "text_punch", "durationInFrames": 75, "lines": ["Pagaste caro", "y ni ganas"], "highlight": 0, "say": "Pagaste caro y ni ganas de comerla." },
+      { "type": "broll", "durationInFrames": 90, "mood": "fuego", "text": "Armada al momento", "say": "En Fuego Burgers la armamos al momento," },
+      { "type": "product_hero", "durationInFrames": 120, "productId": "bacon-bbq", "motion": "rise", "headline": "Sale en caja térmica", "say": "y sale en caja térmica, directo a tu casa." },
+      { "type": "product_hero", "durationInFrames": 105, "productId": "doble-cheddar", "motion": "orbit", "headline": "Cheddar de verdad", "say": "Doble medallón y cheddar de verdad." },
+      { "type": "cta", "durationInFrames": 120, "headline": "Pedila ahora", "subline": "Te respondemos al toque", "say": "Pedila ahora por WhatsApp." }
+    ]
+  },
+  {
+    "id": "fuego-3-showcase",
+    "template": "showcase",
+    "voice": { "words": [] },
+    "captionStyle": "bold",
+    "scenes": [
+      { "type": "text_punch", "durationInFrames": 45, "lines": ["Elegí tu", "favorita"], "highlight": 1, "say": "Elegí tu favorita." },
+      { "type": "product_flash", "durationInFrames": 39, "productId": "doble-cheddar", "showPrice": true, "say": "Doble cheddar." },
+      { "type": "product_flash", "durationInFrames": 39, "productId": "bacon-bbq", "showPrice": true, "say": "Bacon barbacoa." },
+      { "type": "product_flash", "durationInFrames": 39, "productId": "clasica", "showPrice": true, "say": "La clásica." },
+      { "type": "product_flash", "durationInFrames": 39, "productId": "veggie", "showPrice": true, "say": "Veggie fuego." },
+      { "type": "product_flash", "durationInFrames": 45, "productId": "papas-cheddar", "showPrice": true, "say": "Y papas con cheddar." },
+      { "type": "broll", "durationInFrames": 60, "mood": "fuego", "text": "Todo hecho al momento", "say": "Todo hecho al momento." },
+      { "type": "cta", "durationInFrames": 90, "headline": "¿Cuál te pedís?", "say": "¿Cuál te pedís hoy? Escribinos." }
+    ]
+  },
+  {
+    "id": "fuego-4-autoridad",
+    "template": "autoridad",
+    "voice": { "words": [] },
+    "captionStyle": "clean",
+    "scenes": [
+      { "type": "text_punch", "durationInFrames": 66, "lines": ["¿Por qué nos", "eligen?"], "highlight": 1, "say": "¿Por qué nos eligen en el barrio?" },
+      { "type": "bullets", "durationInFrames": 165, "title": "Hecho como se debe", "items": ["Carne picada todos los días", "Pan de masa madre", "Envío en caja térmica"], "say": "Carne picada todos los días, pan de masa madre y envío en caja térmica." },
+      { "type": "review_card", "durationInFrames": 135, "reviewIndex": 0, "say": "No lo decimos nosotros. Mirá lo que dicen nuestros clientes." },
+      { "type": "review_card", "durationInFrames": 105, "reviewIndex": 1, "say": "Y no es el único." },
+      { "type": "cta", "durationInFrames": 105, "headline": "Probala y contanos", "say": "Pedí la tuya por WhatsApp y contanos." }
+    ]
+  },
+  {
+    "id": "fuego-5-oferta",
+    "template": "oferta",
+    "voice": { "words": [] },
+    "captionStyle": "bold",
+    "scenes": [
+      { "type": "text_punch", "durationInFrames": 45, "lines": ["Ojo con", "esta promo"], "highlight": 1, "say": "Ojo con esta promo." },
+      { "type": "price_card", "durationInFrames": 186, "productId": "doble-cheddar", "headline": "Doble Cheddar", "price": 12900, "oldPrice": 15900, "installments": "Aceptamos Mercado Pago", "say": "La doble cheddar baja a $12.900. Antes estaba $15.900." },
+      { "type": "deadline", "durationInFrames": 75, "headline": "Últimos días", "deadline": "Solo hasta el domingo 10/11", "say": "Solo hasta el domingo." },
+      { "type": "cta", "durationInFrames": 75, "headline": "Escribinos ya", "say": "Escribinos ya." }
+    ]
+  }
+]

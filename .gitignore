@@ -1,0 +1,8 @@
+node_modules
+out
+.remotion
+*.log
+.env*
+packages/video/public/runs
+packages/video/.cache
+packages/video/public/library-sample

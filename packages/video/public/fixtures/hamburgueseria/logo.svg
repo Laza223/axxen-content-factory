@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="520" height="260">
+<path d="M120 230 C40 200 50 110 110 60 C105 105 135 120 150 95 C160 60 140 30 160 10 C230 60 250 140 210 200 C200 220 170 236 120 230 Z" fill="#E63A1F"/>
+<path d="M125 220 C85 200 90 150 120 120 C122 145 140 155 150 140 C165 160 170 205 125 220 Z" fill="#FFC531"/>
+<text x="250" y="130" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="76" fill="#1C1A19" textLength="250" lengthAdjust="spacingAndGlyphs">FUEGO</text>
+<text x="252" y="205" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="56" fill="#E63A1F" textLength="250" lengthAdjust="spacingAndGlyphs">BURGERS</text>
+</svg>

@@ -1,0 +1,243 @@
+{
+  "_note": "Salida de ejemplo escrita a mano con el formato del director, para correr el pipeline sin API key. No es una respuesta real de Claude.",
+  "brief": {
+    "buyer": "Gente de Palermo que pide delivery el finde y quiere una hamburguesa que llegue como en el local",
+    "pain": "Pedir delivery y que la hamburguesa llegue fría y aplastada",
+    "desire": "Darse un gusto el finde sin salir de casa",
+    "offer": "Doble Cheddar de $15.900 a $12.900 hasta el domingo",
+    "differentiators": [
+      {
+        "text": "Doble Cheddar a $12.900 (antes $15.900)",
+        "source": "productos.doble-cheddar"
+      },
+      {
+        "text": "Promo hasta el domingo 10/11",
+        "source": "oferta.deadline"
+      },
+      {
+        "text": "Clientes destacan que llega caliente",
+        "source": "resenas[0]"
+      }
+    ],
+    "objections": [
+      "¿Llega fría?",
+      "¿Vale lo que cuesta?"
+    ]
+  },
+  "videos": [
+    {
+      "template": "thumbstopper",
+      "captionStyle": "bold",
+      "scenes": [
+        {
+          "type": "broll",
+          "mood": "fuego",
+          "text": "¿Antojo de algo bien de verdad?",
+          "say": "¿Antojo de algo bien de verdad?"
+        },
+        {
+          "type": "product_hero",
+          "productId": "doble-cheddar",
+          "motion": "push",
+          "headline": "Recién salida del fuego",
+          "say": "Mirá esta doble cheddar, recién salida del fuego."
+        },
+        {
+          "type": "price_card",
+          "productId": "doble-cheddar",
+          "headline": "Precio de esta semana",
+          "price": 12900,
+          "oldPrice": 15900,
+          "say": "Esta semana la tenés a $12.900."
+        },
+        {
+          "type": "cta",
+          "headline": "Pedí la tuya hoy",
+          "subline": "Delivery en Palermo y alrededores",
+          "say": "Escribinos y te la llevamos."
+        }
+      ]
+    },
+    {
+      "template": "pas",
+      "captionStyle": "bold",
+      "scenes": [
+        {
+          "type": "text_punch",
+          "lines": [
+            "¿Llegó fría",
+            "y aplastada?"
+          ],
+          "highlight": 1,
+          "say": "¿Otra vez tu hamburguesa llegó fría y aplastada?"
+        },
+        {
+          "type": "text_punch",
+          "lines": [
+            "Pagaste caro",
+            "y ni ganas"
+          ],
+          "highlight": 0,
+          "say": "Pagaste caro y ni ganas de comerla."
+        },
+        {
+          "type": "broll",
+          "mood": "fuego",
+          "text": "Armada al momento",
+          "say": "En Fuego Burgers la armamos al momento,"
+        },
+        {
+          "type": "product_hero",
+          "productId": "bacon-bbq",
+          "motion": "rise",
+          "headline": "Sale en caja térmica",
+          "say": "y sale en caja térmica, directo a tu casa."
+        },
+        {
+          "type": "product_hero",
+          "productId": "doble-cheddar",
+          "motion": "orbit",
+          "headline": "Cheddar de verdad",
+          "say": "Doble medallón y cheddar de verdad."
+        },
+        {
+          "type": "cta",
+          "headline": "Pedila ahora",
+          "subline": "Te respondemos al toque",
+          "say": "Pedila ahora por WhatsApp."
+        }
+      ]
+    },
+    {
+      "template": "showcase",
+      "captionStyle": "bold",
+      "scenes": [
+        {
+          "type": "text_punch",
+          "lines": [
+            "Elegí tu",
+            "favorita"
+          ],
+          "highlight": 1,
+          "say": "Elegí tu favorita."
+        },
+        {
+          "type": "product_flash",
+          "productId": "doble-cheddar",
+          "showPrice": true,
+          "say": "Doble cheddar."
+        },
+        {
+          "type": "product_flash",
+          "productId": "bacon-bbq",
+          "showPrice": true,
+          "say": "Bacon barbacoa."
+        },
+        {
+          "type": "product_flash",
+          "productId": "clasica",
+          "showPrice": true,
+          "say": "La clásica."
+        },
+        {
+          "type": "product_flash",
+          "productId": "veggie",
+          "showPrice": true,
+          "say": "Veggie fuego."
+        },
+        {
+          "type": "product_flash",
+          "productId": "papas-cheddar",
+          "showPrice": true,
+          "say": "Y papas con cheddar."
+        },
+        {
+          "type": "broll",
+          "mood": "fuego",
+          "text": "Todo hecho al momento",
+          "say": "Todo hecho al momento."
+        },
+        {
+          "type": "cta",
+          "headline": "¿Cuál te pedís?",
+          "say": "¿Cuál te pedís hoy? Escribinos."
+        }
+      ]
+    },
+    {
+      "template": "autoridad",
+      "captionStyle": "clean",
+      "scenes": [
+        {
+          "type": "text_punch",
+          "lines": [
+            "¿Por qué nos",
+            "eligen?"
+          ],
+          "highlight": 1,
+          "say": "¿Por qué nos eligen en el barrio?"
+        },
+        {
+          "type": "bullets",
+          "title": "Hecho como se debe",
+          "items": [
+            "Carne picada todos los días",
+            "Pan de masa madre",
+            "Envío en caja térmica"
+          ],
+          "say": "Carne picada todos los días, pan de masa madre y envío en caja térmica."
+        },
+        {
+          "type": "review_card",
+          "reviewIndex": 0,
+          "say": "No lo decimos nosotros. Mirá lo que dicen nuestros clientes."
+        },
+        {
+          "type": "review_card",
+          "reviewIndex": 1,
+          "say": "Y no es el único."
+        },
+        {
+          "type": "cta",
+          "headline": "Probala y contanos",
+          "say": "Pedí la tuya por WhatsApp y contanos."
+        }
+      ]
+    },
+    {
+      "template": "oferta",
+      "captionStyle": "bold",
+      "scenes": [
+        {
+          "type": "text_punch",
+          "lines": [
+            "Ojo con",
+            "esta promo"
+          ],
+          "highlight": 1,
+          "say": "Ojo con esta promo."
+        },
+        {
+          "type": "price_card",
+          "productId": "doble-cheddar",
+          "headline": "Doble Cheddar",
+          "price": 12900,
+          "oldPrice": 15900,
+          "installments": "Aceptamos Mercado Pago",
+          "say": "La doble cheddar baja a $12.900. Antes estaba $15.900."
+        },
+        {
+          "type": "deadline",
+          "headline": "Últimos días",
+          "deadline": "Solo hasta el domingo 10/11",
+          "say": "Solo hasta el domingo."
+        },
+        {
+          "type": "cta",
+          "headline": "Escribinos ya",
+          "say": "Escribinos ya."
+        }
+      ]
+    }
+  ]
+}
